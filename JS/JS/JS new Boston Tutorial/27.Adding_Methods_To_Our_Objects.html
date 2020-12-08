@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+   
+<!--Valid Document html--> 
+
+<html>
+<head>
+<script type="text/javascript">
+    
+	function people(name,age){
+	    this.name=name;
+		this.age=age;
+		this.yearsUntilRetire=yearsLeft;
+	}
+	
+	function yearsLeft(){
+	    var numYears=65-this.age;
+	    return numYears;
+	
+	}
+	
+	var natalie=new people("Natalie Portman",28);
+  
+</script>
+</head>
+<body>
+
+<script type="text/javascript">
+//when you print something use to body script
+    document.write(natalie.yearsUntilRetire());
+</script>
+    
+
+	
+</body>
+</html>

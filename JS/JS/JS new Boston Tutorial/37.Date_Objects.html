@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+   
+<!--Valid Document html--> 
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+    
+/*	function doSomething(){
+	    document.write("Tunqa ");
+	}
+	
+	setInterval("doSomething()",1000); //1000ms(miliseconds)
+*/
+
+    function printTime(){
+        var now=new Date();
+	    var hours=now.getHours();
+		var mins=now.getMinutes();
+		var seconds=now.getSeconds();
+		document.write(hours+":"+mins+":"+seconds+"<br/>");
+	}	
+	
+	setInterval("printTime()",1000);
+
+	
+</script>
+    
+
+	
+</body>
+</html>
