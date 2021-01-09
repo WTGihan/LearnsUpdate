@@ -1,0 +1,17 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+        
+    }
+    
+}
